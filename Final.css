@@ -535,7 +535,7 @@ td a:hover{
     }
     .wrapperbody {
         margin: 0;
-        padding: 0 0 0 1em;
+        padding: 0 1em 0 1em;
         border: 0;
     }
     #mobile-nav {
@@ -729,36 +729,44 @@ td a:hover{
 
 
 @media only screen and (max-width:64em) {
-    #morgathimage {
+    iframe {
+        max-height: 13em;
+        max-width: 22em;
+    }
+    #heroindex {
         max-width: 26em;
+    }
+    #morgathimage {
+        max-width: 24em;
     }
 
     #thragarimage {
-        max-width: 26em;
+        max-width: 24em;
     }
 
     #elowenimage {
-        max-width: 26em;
+        max-width: 24em;
     }
 
     #kaelithorimage {
-        max-width: 26em;
+        max-width: 24em;
     }
 
     #vestraimage {
-        max-width: 26em;
+        max-width: 24em;
     }
 
     #nimimage {
-        max-width: 26em;
+        max-width: 24em;
     }
 
     #twisted-fangimage {
-        max-width: 26em;
+        max-width: 24em;
     }
     .wrapperbody {
         max-width: 26em;
     }
+    
 }
     
 
